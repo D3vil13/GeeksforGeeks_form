@@ -1,0 +1,21 @@
+body{
+    background-color: lightgreen;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titlename{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.fullform{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    
+    
+    
+}
