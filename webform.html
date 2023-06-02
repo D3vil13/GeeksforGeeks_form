@@ -29,11 +29,12 @@
             
             <div class="describe">
                 <p>Which option best descibe you?</p>
-                <select name="role" id="role">
-                    <option value="student">Student</option>
-                    <option value="Intern">Intern</option>
-                    <option value="Professional">Professional</option>
-                    <option value="other">Other</option>
+                <select required name="role" id="role">
+                    <option value="" disabled selected>Choose a profession</option>
+                    <option value="1">Student</option>
+                    <option value="2">Intern</option>
+                    <option value="3">Professional</option>
+                    <option value="4">Other</option>
                 </select>
                 
             </div>
@@ -42,9 +43,9 @@
                 <P>Would you recommend GeeksforGeeks?</P>
                 <input type="radio" id="y" name="y" value="y">
                 <label for="y">Yes</label><br>
-                <input type="radio" id="n" name="n" value="n">
+                <input type="radio" id="n" name="y" value="n">
                 <label for="n">No</label><br>
-                <input type="radio" id="may" name="may" value="may">
+                <input type="radio" id="may" name="y" value="may">
                 <label for="may">Maybe</label><br>
             </div>
             <div class="lang">
@@ -64,14 +65,14 @@
             </div>
             <div class="sugg">
                 <p>Any suggestion or comments</p>
-                <input>
+                <input class="sugg_">
 
             </div>
-            <div>
-                <button>Submit</button>
+            <div class="butt">
+                <button class="butt_">Submit</button>
             </div>
             
         </div>
 
     </body>
-</html>
+</html> 
